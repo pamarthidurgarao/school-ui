@@ -1,0 +1,75 @@
+{
+    "fields": [{
+            "displayName": "Basic Profile",
+            "type": "header",
+            "style": {
+                "column": "col-md-12"
+            }
+        },
+        {
+            "displayName": "First Name",
+            "name": "firstName",
+            "type": "string",
+            "placeholder": "Enter first name",
+            "style": {
+                "column": "col-md-3"
+            },
+            "validation": [{
+                "type": "required",
+                "message": "Please fill the first name"
+            }]
+        },
+        {
+            "displayName": "Last Name",
+            "name": "lastName",
+            "type": "string",
+            "placeholder": "Enter last name",
+            "style": {
+                "column": "col-md-2"
+            },
+            "validation": [{
+                "type": "required",
+                "message": "Please fill the last name"
+            }]
+        },
+        {
+            "displayName": "First Name",
+            "name": "firstName",
+            "type": "password",
+            "placeholder": "Enter first name",
+            "style": {
+                "column": "col-md-2"
+            },
+            "validation": [{
+                "type": "required",
+                "message": "Please fill the first name"
+            }]
+        },
+        {
+            "displayName": "First Name",
+            "name": "firstName",
+            "type": "string",
+            "placeholder": "Enter first name",
+            "style": {
+                "column": "col-md-2"
+            },
+            "validation": [{
+                "type": "required",
+                "message": "Please fill the first name"
+            }]
+        },
+        {
+            "displayName": "First Name",
+            "name": "firstName",
+            "type": "string",
+            "placeholder": "Enter first name",
+            "style": {
+                "column": "col-md-3"
+            },
+            "validation": [{
+                "type": "required",
+                "message": "Please fill the first name"
+            }]
+        }
+    ]
+}

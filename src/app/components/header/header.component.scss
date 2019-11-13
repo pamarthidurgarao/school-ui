@@ -1,0 +1,37 @@
+.header {
+    background-color: #303aaa;
+    padding: 10px 0px;
+    .header-menu {
+        display: flex;
+        .menu {
+            padding-right: 20px;
+            position: relative;
+            color: #fff;
+            &::after {
+                content: "";
+                width: 1px;
+                position: absolute;
+                top: -10px;
+                bottom: 0px;
+                height: 44px;
+                right: 0px;
+                background-color: #acb2f8;
+            }
+             :hover {
+                cursor: pointer;
+            }
+        }
+        a {
+            padding-left: 15px;
+            color: #fff;
+            span {
+                padding-left: 15px;
+            }
+        }
+    }
+    .profile {
+        position: absolute;
+        right: 15px;
+        color: #fff;
+    }
+}

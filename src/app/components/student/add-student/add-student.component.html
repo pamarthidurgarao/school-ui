@@ -1,0 +1,301 @@
+<div class="pageHeader card pl-2">
+    <div class="title">Student</div>
+    <div class="actions">
+        <i class="fa fa-times" aria-hidden="true" (click)="closePage()"></i>
+    </div>
+</div>
+<div class="pageBody">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="student-tab" data-toggle="tab" href="#student" role="tab" aria-controls="student" aria-selected="true">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="parent-tab" data-toggle="tab" href="#parent" role="tab" aria-controls="parent" aria-selected="false">Parent</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Other</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Documents</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Family Photos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Previous Study</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="student" role="tabpanel" aria-labelledby="student-tab">
+            <p>Academic Details</p>
+            <div class="row mr-0">
+                <div class="col-sm-9">
+                    <div class="form-row  mr-0 ml-0">
+                        <div class="form-group col-md-4 row mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Academic Year</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>2019-2020</option>
+                                <option>2020-2021</option>
+                                <option>2021--2022</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Join Year</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>2019-2020</option>
+                                <option>2020-2021</option>
+                                <option>2021--2022</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Admission Date</label>
+                            <input type="date" class="form-control col-sm-7">
+                        </div>
+
+                    </div>
+                    <div class="form-row  mr-0 ml-0">
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Admission Class</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>1st Class</option>
+                                <option>2st Class</option>
+                                <option>3st Class</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Previous Class</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>1st Class</option>
+                                <option>2st Class</option>
+                                <option>3st Class</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Medium</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>Telugu</option>
+                                <option>English</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+
+                    </div>
+                    <p>Personal Details</p>
+                    <div class="form-row  mr-0 ml-0">
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">First Name</label>
+                            <input class="form-control col-sm-7" type="text" id="exampleFormControlSelect1">
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Middle Name</label>
+                            <input class="form-control col-sm-7" type="text" id="exampleFormControlSelect1">
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Last Name</label>
+                            <input class="form-control col-sm-7" type="text" id="exampleFormControlSelect1">
+                        </div>
+                    </div>
+                    <div class="form-row  mr-0 ml-0">
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Date of Birth</label>
+                            <input type="date" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Gender</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Category</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option>Day Scholer</option>
+                                <option>Hostel</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row pl-5 pr-5">
+                        <img src="assets\imgs\profile-icon.png" alt="..." class="img-thumbnail">
+                    </div>
+                    <div class="row pl-5 pr-5 pt-2">
+                        <div class="col-sm-6">
+                            <button class="primary"><i class="fa fa-camera" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button class="primary"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Communication Details</p>
+            <div class="row mr-0">
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Address</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Village/City</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Mandal</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">District</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">State</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">PIN</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Mobile</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Email</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Previous Study Details</p>
+            <div class="row mr-0">
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-6 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-2">Previous School</label>
+                            <input type="text" class="form-control col-sm-9">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Previous Class</label>
+                            <select class="form-control col-sm-7" id="exampleFormControlSelect1">
+                                <option class="colorRed">1st Class</option>
+                                <option>2st Class</option>
+                                <option>3st Class</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Year</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="parent" role="tabpanel" aria-labelledby="parent-tab">
+            <p>Father Details</p>
+            <div class="row mr-0">
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">First Name</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Middle Name</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Last Name</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Date of Birth</label>
+                            <input type="date" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Email</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Phone</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Occupation</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Company</label>
+                            <input type="date" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Address Details</p>
+            <div class="form-group form-check ml-2">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" ([ngModel])="defaultAddress" [checked]="defaultAddress">
+                <label class="form-check-label" for="exampleCheck1">Same as Student Address</label>
+            </div>
+            <div class="row mr-0">
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Address</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Village/City</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Mandal</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">District</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-row mr-0 ml-0">
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">State</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputEmail4" class="col-sm-4">Pin</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Mobile</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                        <div class="form-group col-md-3 row  mr-0 ml-0">
+                            <label for="inputPassword4" class="col-sm-4">Email</label>
+                            <input type="text" class="form-control col-sm-7">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
+    <div class="actions">
+        <button type="button" class="btn btn-secondary mr-2">Reset</button>
+        <button type="button" class="btn btn-success mr-2">Save</button>
+        <button type="button" class="btn btn-primary mr-2">Submit</button>
+    </div>
+</div>
